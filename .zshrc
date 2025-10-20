@@ -74,6 +74,10 @@ plugins=(git npm nvm emoji zsh-autosuggestions zsh-syntax-highlighting z)
 
 source $ZSH/oh-my-zsh.sh
 
+prompt_context() {
+  promt_segment black default '😎 '
+}
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
