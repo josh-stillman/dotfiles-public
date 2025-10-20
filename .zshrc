@@ -75,7 +75,7 @@ plugins=(git npm nvm emoji zsh-autosuggestions zsh-syntax-highlighting z)
 source $ZSH/oh-my-zsh.sh
 
 prompt_context() {
-  promt_segment black default '😎 '
+  prompt_segment black default '😎 '
 }
 
 # User configuration
